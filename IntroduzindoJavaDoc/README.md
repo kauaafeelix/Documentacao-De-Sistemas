@@ -29,5 +29,5 @@ IntroduzindoJavaDoc/
 Execute o comando JavaDoc no diretório do projeto:
 
 ```bash
-javadoc -d docs src/com/aula/*.java
+javadoc -d doc src/com/aula/*.java
 ```

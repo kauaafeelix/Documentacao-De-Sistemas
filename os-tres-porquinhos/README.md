@@ -21,7 +21,7 @@ os-tres-porquinhos/
 │       ├── CasaDeMadeira.java
 │       └── CasaDeTijolo.java
 └── templates/
-    └── [arquivos de documentação gerados pelo JavaDoc]
+    └── [documentação JavaDoc gerada]
 ```
 
 ## Classes
