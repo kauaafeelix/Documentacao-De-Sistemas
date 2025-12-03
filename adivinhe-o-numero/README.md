@@ -68,7 +68,13 @@ adivinhe-o-numero/
 Para gerar a documentação completa do projeto:
 
 ```bash
-javadoc -d javadoc -sourcepath src -subpackages model:service:view -encoding UTF-8 -charset UTF-8 src/Aplicacao.java
+javadoc -d javadoc -sourcepath src -subpackages model:service:view -encoding UTF-8 -charset UTF-8
+```
+
+Ou para incluir explicitamente a classe principal:
+
+```bash
+javadoc -d javadoc -encoding UTF-8 -charset UTF-8 src/Aplicacao.java src/model/*.java src/service/*.java src/view/*.java
 ```
 
 A documentação gerada estará disponível em `javadoc/index.html`.
