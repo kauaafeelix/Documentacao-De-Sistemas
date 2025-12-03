@@ -3,7 +3,11 @@ import service.NumeroService;
 import view.NumeroView;
 
 /**
- * Classe principal da aplicação de adivinhação de números.
+ *  <p>Classe principal da aplicação de adivinhação de números.</p>
+ *  @author Kauã Felix da Silva Costa
+ *  @version 1.0.0
+ *  @since 2025-12-02
+ *
  */
 public class Aplicacao {
     /**
